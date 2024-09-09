@@ -1,0 +1,14 @@
+FROM node:latest
+
+WORKDIR /app
+
+COPY package.json /app/
+COPY server.js /app/
+COPY creds.json /app/
+COPY firebase.js /app/
+COPY userFunctions.js /app/
+COPY logFunctions.js /app/
+
+RUN npm install
+
+CMD ["node", "server.js"]

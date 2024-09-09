@@ -1,0 +1,9 @@
+.layout {
+    display: grid;
+    grid-template-columns: 250px auto; /* 250px for the NavPanel, rest for the content */
+    height: 100vh;
+  }
+  
+  .content {
+    overflow-y: auto; /* Add scroll if content is larger than viewport */
+  }

@@ -1,0 +1,12 @@
+BackEnd/Microservices/User_Service/creds.json
+BackEnd/Microservices/Media_Service/key.json 
+BackEnd/Microservices/Admin_Service/creds.json 
+BackEnd/Microservices/Chat_Service/creds.json 
+BackEnd/Microservices/Community_Service/creds.json 
+BackEnd/Microservices/Game_Service/creds.json 
+BackEnd/Microservices/Search_Service/creds.json
+BackEnd/Microservices/Tournament_Service/creds.json
+BackEnd/Microservices/User_Service/creds.json
+
+
+BackEnd/.env

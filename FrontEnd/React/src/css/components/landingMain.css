@@ -1,0 +1,28 @@
+body{
+    background: url('../../assets/WebBackground.png') no-repeat center center fixed;
+}
+
+.Content{
+    padding: 10em;
+    padding-top: 5em;
+}
+
+.TopSide{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+
+.TopLeft{
+    width: 45em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopRight {
+    width: 35em;
+}
+
+    

@@ -1,0 +1,15 @@
+steps:
+  # Step 1: Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/ironsight-426001/ironsight-images/gameDev_micro:${SHORT_SHA}', '.']
+    
+    
+  # Step 2: Push the Docker image to Google Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/ironsight-426001/ironsight-images/gameDev_micro:${SHORT_SHA}']
+    
+  # Step 3: Deploy to Cloud Run
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['beta', 'run', 'deploy', 'gameDev_micro', '--image', 'us-central1-docker.pkg.dev/ironsight-426001/ironsight-images/gameDev_micro:${SHORT_SHA}', '--platform', 'managed', '--region', 'us-central1']
+    env:
+      - 'CLOUD_BUILD_SUBSTITUTIONS=_IMAGE=us-central1-docker.pkg.dev/ironsight-426001/ironsight-images/gameDev_micro:${SHORT_SHA},_SERVICE=gameDev_micro'

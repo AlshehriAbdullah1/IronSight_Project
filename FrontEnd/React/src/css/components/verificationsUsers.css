@@ -1,0 +1,56 @@
+/* Base styles */
+.title {
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.userList {
+    margin-top: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* Styles for tablets and small desktops */
+@media (max-width: 1024px) {
+    .title {
+        margin-left: 5%;
+        font-size: large;
+    }
+
+    .userList {
+        margin-top: 30px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .title {
+        font-size: medium;
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+
+    .userList {
+        margin-top: 20px;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+}
+
+/* Styles for very small screens */
+@media (max-width: 480px) {
+    .title {
+        font-size: small;
+        margin-top: 5px;
+        margin-left: 2%;
+    }
+
+    .userList {
+        margin-top: 15px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+}

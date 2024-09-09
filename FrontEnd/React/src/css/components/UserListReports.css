@@ -1,0 +1,151 @@
+/* Base styles */
+.UserListReports-container {
+    width: 100%;
+    max-width: 870px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+.UserListReports-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #EEE;
+}
+
+.UserListReports-item:last-child {
+    border-bottom: none;
+}
+
+.UserNameReports, 
+.user-id-Reports, 
+.user-isBanned-Reports,
+.user-numOfReports-Reports{
+    font-size: medium;
+    color: #333333;
+}
+
+.UserNameReports-label,
+.user-isBanned-Reports-label,
+.user-numOfReports-Reports-label,
+.user-action-Reports-label{
+    font-size: medium;
+    color: #333333;
+    font-weight: bold;
+}
+
+.UserListReports-item-labels, .UserListReports-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .UserListReports-item-labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f0f0f0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  /* This will make the labels row gray */
+}
+  
+  .UserListReport-info,
+  .UserNameReports-label,
+  .user-id-Reports-label,
+  .user-id-Reports,
+  .user-numOfReports-Reports-label,
+  .user-numOfReports-Reports,
+  .user-isBanned-Reports-label,
+  .user-isBanned-Reports,
+  .user-action-Reports-label,
+  .action-button {
+    flex: 1;
+    text-align: center;
+  }
+
+.user-id-Reports-label{
+    font-size: medium;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.action-button {
+    padding: 8px 16px;
+    background-color: #8A2BE2;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #9B30FF;
+}
+
+/* Styles for tablets and small desktops */
+@media (max-width: 1024px) {
+    .search-bar, .UserListReports-item {
+        padding: 10px 5%;
+    }
+
+    .action-button {
+        padding: 6px 12px;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .search-bar {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .UserListReports-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #EEE;
+    }
+    
+    .user-id-Reports {
+        font-size: medium;
+        color: #333333;
+        width: 80px; /* Fixed width to ensure uniform alignment */
+        text-align: center; /* Ensures text is aligned to the left within the given width */
+    }
+
+    .action-button {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+/* Styles for very small screens */
+@media (max-width: 480px) {
+    .search-bar {
+        margin-bottom: 15px;
+    }
+
+    .UserListReports-item {
+        padding: 8px 5px;
+    }
+}

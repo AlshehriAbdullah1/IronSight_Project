@@ -1,0 +1,50 @@
+.header {
+    background-color: #50188B;
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .Logos{
+    margin-right: 2em;
+    display: flex;
+    align-items: center;
+  }
+
+  .Logos img {
+    margin-right: 2em;
+  }
+
+  .LeftSection{
+    display: flex;
+  }
+  
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerContent a {
+    margin-right: 2em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+  
+  .LoginSection{
+    margin-left: auto;
+  }
+
+  .LoginSection button {
+    border: 1px solid white;
+    color: #5B298F;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    width: 150px;
+    font-weight: bold;
+  }

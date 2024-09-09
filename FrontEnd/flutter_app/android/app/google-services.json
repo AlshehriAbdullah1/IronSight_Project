@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698940550647",
+    "project_id": "ironsight-426001",
+    "storage_bucket": "ironsight-426001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698940550647:android:662e7549e6421323ed12f2",
+        "android_client_info": {
+          "package_name": "com.example.iron_sight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgAMylqGtju0z0TtMpKQVDnbB5SK0pYto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

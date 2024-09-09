@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "i": "concurrently \"cd APIs/API_Gateway_Flutter && npm i\" \"cd APIs/API_Gateway_React && npm i\" \"cd Microservices/Tournament_Service && npm i\" \"cd Microservices/User_Service && npm i\" \"cd Microservices/Game_Service && npm i\" \"cd Microservices/Community_Service && npm i\" \"cd Microservices/Media_Service && npm i\" \"cd Microservices/Chat_Service && npm i\" \"cd Microservices/Search_Service && npm i\" \"cd Microservices/Admin_Service && npm i\"",
+    "start": "concurrently \"cd APIs/API_Gateway_Flutter && npm start\" \"cd APIs/API_Gateway_React && npm start\" \"cd Microservices/Tournament_Service && npm start\" \"cd Microservices/User_Service && npm start\" \"cd Microservices/Game_Service && npm start\" \"cd Microservices/Community_Service && npm start\" \"cd Microservices/Media_Service && npm start\" \"cd Microservices/Chat_Service && npm start\" \"cd Microservices/Search_Service && npm start\" \"cd Microservices/Admin_Service && npm start\"",
+    "dev": "concurrently \"cd APIs/API_Gateway_Flutter && npm run dev\" \"cd APIs/API_Gateway_React && npm run dev\" \"cd Microservices/Tournament_Service && npm run dev\" \"cd Microservices/User_Service && npm run dev\" \"cd Microservices/Game_Service && npm run dev\" \"cd Microservices/Community_Service && npm run dev\" \"cd Microservices/Media_Service && npm run dev\" \"cd Microservices/Chat_Service && npm run dev\" \"cd Microservices/Search_Service && npm run dev\" \"cd Microservices/Admin_Service && npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
