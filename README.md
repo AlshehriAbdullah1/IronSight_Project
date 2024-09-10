@@ -1,4 +1,4 @@
-<p align="center">
+<p width="800" height="600" align="center">
   <img src="https://github.com/AlshehriAbdullah1/IronSight_Project/blob/main/IronSight%20logo.png?raw=true" />
 </p>
 
