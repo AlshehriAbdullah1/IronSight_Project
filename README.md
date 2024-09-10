@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://github.com/AlshehriAbdullah1/IronSight_Project/blob/main/IronSight%20logo.png?raw=true)" />
+  <img src="https://github.com/AlshehriAbdullah1/IronSight_Project/blob/main/IronSight%20logo.png?raw=true" />
 </p>
+
 # IronSight 
 
 A  platform designed to connect the Esports community by providing a centralized hub for tournament
